@@ -6,6 +6,9 @@
 body{
 	background-color: rgb(230, 200, 50);
 	color: black;
+	position: static;
+	height: 50em;
+	width: 100em;
 }
 
 
@@ -17,7 +20,7 @@ div{
 }
 
 #main {
-	position: absolute;
+	position: relative;
 	margin: 0;
 	width: 100%;
 	height: 100%;
@@ -46,8 +49,13 @@ div{
 	background-color: orange;
 	position: relative;
 	padding: 10px;
+	width: 50%;
+	margin-bottom: 150%;
+	margin-right: auto;
+	margin-left: auto;
 }
 form {
 	height: 20px;
+	width: 50px;
 }
 
